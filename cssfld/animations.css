@@ -6,7 +6,15 @@
   
   @keyframes updownani
    {
-    0% { top: 18%; }
-    50% { top: 12%; }
-    100% { top: 18%; }
+    0% { top: 40%; }
+    50% { top: 60%; }
+    100% { top: 40%; }
+  }
+
+  @keyframes appear {
+    to {
+      opacity: 1;
+      transform: scale(1);
+      filter: blur(0);
+    }
   }
