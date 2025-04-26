@@ -1,15 +1,22 @@
 .float {
-    animation: updownani
+    animation: updown
      3s ease-in-out infinite;
     
   }
   
-  @keyframes updownani
+  @keyframes updown
    {
     0% { top: 40%; }
     50% { top: 60%; }
     100% { top: 40%; }
   }
+
+  @keyframes updownmobile
+  {
+   0% { bottom: 10%; }
+   50% { bottom: 20%; }
+   100% { bottom: 10%; }
+ }
 
   @keyframes appear {
     to {
