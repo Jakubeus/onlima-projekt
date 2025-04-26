@@ -8,7 +8,7 @@
     width: 80%;
     max-width: 1280px;
 
-    
+
     padding: 0px 30px;
     margin: 0 auto;
 }
@@ -23,63 +23,55 @@
 
 /* LANDING */
 
-#landing .row{
-    min-height: 50dvh;
+#landing{
+    
+    padding: 0 1dvw;
     
 }
 
-#landingitems{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    flex-direction: row;
-    gap: 1.2vh;
-    font-size: 180px;
-    word-wrap: break-word;
-}
-    
-#landingitems div{
-    
-    padding: 20px;
+.landrow{
+   position: relative;
 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   min-height: 70dvh;   
+   
+}
+
+.landitems{
+    position: absolute;
+    
+}
+
+.landitembig{
+    width: 33.3%;
+    font-size: 320px;
 }
 
 #landitem1{
-    text-transform: uppercase;
-    position: relative;
-    color: var(--first-color);
-}
-
-#landitem3{
-    font-size: 180px;
-    background: url(/img/onlimaimg.svg) no-repeat ;
-    color: rgba(240, 248, 255, 0);
-    filter: invert(100);
-    user-select: none;
-    position: relative;
+    left: 0%;
+    top: 0%;
+  
 }
 
 #landitem2{
-    font-size: 160px;
-    position: absolute;
-    top: 18%;
-    color: var(--third-color);
+    left: 25%;
+    
+    color: rgb(179, 17, 17);
+    font-size: 300px;
+}
 
-    right: -10%;
-    font-size: 160px;
+#landitem3{
+    filter: invert(100);
 }
 
 #landitem4{
-    position: absolute;
-    top: 18%;
-    color: var(--third-color);
-    filter: invert(100);
-    right: -10%;
-    font-size: 160px;
+    left: 66.66%;
 }
 
 #landitem5{
-    font-size: 30px;
+    left: 66.66%;
+    word-break: break-all;
 }
-

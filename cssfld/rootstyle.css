@@ -16,3 +16,31 @@
 .textgrey{
     color: var(--second-color);
 }
+
+.headertext{
+    font-family: "Archivo Narrow", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header1{
+    font-size: 72px;
+    font-weight: 900;
+    
+}
+
+.header2{
+    font-size: 48px;
+
+}
+
+.header3{
+    font-size: 36px;
+}
+
+.textnormal{
+    font-size: 20px;
+}
+
+

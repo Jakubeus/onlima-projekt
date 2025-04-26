@@ -28,31 +28,4 @@ a{
     align-items: center;
 }
 
-.mainheader{
-    font-family: "Climate Crisis", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "YEAR" 1979;
-}
-
-.header1{
-    font-size: 72px;
-    font-weight: 900;
-    
-}
-
-.header2{
-    font-size: 48px;
-
-}
-
-.header3{
-    font-size: 36px;
-}
-
-.textnormal{
-    font-size: 20px;
-}
 
