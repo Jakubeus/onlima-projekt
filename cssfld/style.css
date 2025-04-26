@@ -1,20 +1,16 @@
 /* HEADER */
-
 #headercontainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    
     max-width: 1280px;
 
-
-    padding: 30px;
-    margin: 0 auto;
+    padding: 6dvh 4dvh;
 }
 
 .menuitem {
-    padding: 0 16px;
+    padding-left: 4dvh;
 }
 
 .logo {
@@ -23,70 +19,41 @@
 
 /* LANDING */
 
-#landing{
-    
-    padding: 0 1dvw;
-    
-}
+.landrow {
+    position: relative;
 
-.landrow{
-   position: relative;
-
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 3.3%;
-   min-height: 70dvh;   
-   
+    min-height: 70dvh;
 }
-
-.landitems{
+.landitems {
     position: absolute;
-    
 }
-
-.landitembig{
+.landitembig {
     width: 28%;
-    
-    
+    position: relative;
+    color: var(--first-color);
 }
-
-.landitemsmall{
+.landitemsmall {
     font-size: 90px;
     color: var(--second-color);
+    
     right: -10%;
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
-
-    
 }
-
-#landitem1{
-   position: relative;
-   color: var(--first-color);
-
-}
-#landing img{
+#landing img {
     width: 100%;
 }
-
-
-
-
-#landitem3{
+#landitem3 {
     filter: invert(100);
 }
-
-#landitem4{
+#landitem4 {
     color: var(--first-color);
 }
-
-
-
-#landitem5{
+#landitem5 {
     font-size: 56px;
     text-align: center;
-    
 }
+
