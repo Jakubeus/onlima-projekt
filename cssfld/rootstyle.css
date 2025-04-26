@@ -1,0 +1,18 @@
+:root{
+    --main-color: #0D0D0D;
+    --first-color: #595959;
+    --second-color: #BFBFBF;
+    --third-color: #F2F2F2;
+}
+
+.textwhite{
+    color: var(--third-color);
+}
+
+.textdark{
+    color: var(--first-color);
+}
+
+.textgrey{
+    color: var(--second-color);
+}

@@ -1,0 +1,12 @@
+.float {
+    animation: updownani
+     3s ease-in-out infinite;
+    
+  }
+  
+  @keyframes updownani
+   {
+    0% { top: 18%; }
+    50% { top: 12%; }
+    100% { top: 18%; }
+  }

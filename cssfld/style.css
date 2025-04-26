@@ -1,0 +1,85 @@
+/* HEADER */
+
+#headercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 80%;
+    max-width: 1280px;
+
+    
+    padding: 0px 30px;
+    margin: 0 auto;
+}
+
+.menuitem {
+    padding: 0 16px;
+}
+
+.logo {
+    font-size: 72px
+}
+
+/* LANDING */
+
+#landing .row{
+    min-height: 50dvh;
+    
+}
+
+#landingitems{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-direction: row;
+    gap: 1.2vh;
+    font-size: 180px;
+    word-wrap: break-word;
+}
+    
+#landingitems div{
+    
+    padding: 20px;
+
+}
+
+#landitem1{
+    text-transform: uppercase;
+    position: relative;
+    color: var(--first-color);
+}
+
+#landitem3{
+    font-size: 180px;
+    background: url(/img/onlimaimg.svg) no-repeat ;
+    color: rgba(240, 248, 255, 0);
+    filter: invert(100);
+    user-select: none;
+    position: relative;
+}
+
+#landitem2{
+    font-size: 160px;
+    position: absolute;
+    top: 18%;
+    color: var(--third-color);
+
+    right: -10%;
+    font-size: 160px;
+}
+
+#landitem4{
+    position: absolute;
+    top: 18%;
+    color: var(--third-color);
+    filter: invert(100);
+    right: -10%;
+    font-size: 160px;
+}
+
+#landitem5{
+    font-size: 30px;
+}
+
