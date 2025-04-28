@@ -1,6 +1,6 @@
 @media (max-width: 576px) {
     .landrow {
-      flex-direction: column; /* na mobile sa dajú pod seba */
+      flex-direction: column; 
     }
 
     div.landitembig{

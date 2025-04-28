@@ -1,8 +1,10 @@
 :root{
     --main-color: #0D0D0D;
+    --side-color: #3498db;
     --first-color: #595959;
     --second-color: #BFBFBF;
     --third-color: #F2F2F2;
+
 }
 
 .textwhite{
