@@ -26,4 +26,21 @@
     nav {
         display: none;
     }
+
+    .homerow{
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    #homeitemaling{
+      padding-left: 0rem;
+      text-align: center;
+  
+  }
+  }
+
+  /* TAB */
+
+  .tabcontainer{
+    gap: 30px;
   }

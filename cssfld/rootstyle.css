@@ -26,7 +26,35 @@
     font-style: normal;
     font-variation-settings:
       "YEAR" 1979;
+
+      overflow: hidden;
 }
+
+
+.climate-crisis {
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "YEAR" 1979;
+  }
+
+  .forum {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+.merriweather {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
 
 .header1{
     font-size: 72px;
