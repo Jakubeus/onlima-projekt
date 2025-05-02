@@ -11,29 +11,31 @@
     <link rel="stylesheet" href="cssfld/preset.css" />
     <link rel="stylesheet" href="cssfld/rootstyle.css" />
     <link rel="stylesheet" href="cssfld/animations.css" />
-    <link rel="stylesheet" href="/cssfld/mediaqueries.css" />
+    <link rel="stylesheet" href="cssfld/mediaqueries.css" />
   </head>
   <body>
     <header>
       <div id="headercontainer" class="textwhite headertext">
         <div class="logo">Životopis</div>
-        <nav class="merriweather">
-          <a href="" class="menuitem">Domov</a>
-          <a href="" class="menuitem">O mne</a>
-          <a href="" class="menuitem">Skusenosti</a>
-          <a href="" class="menuitem">Kontakt</a>
+        <div class="burger" id="burger">☰</div>
+        <nav id="nav" class="merriweather">
+          <div class="close" id="close">✖</div>
+          <a href="#home" class="menuitem">Motivačny list</a>
+          <a href="#work" class="menuitem">Moje zručnosti</a>
+          <a href="#contact" class="menuitem">Kontakt</a>
         </nav>
+        
       </div>
     </header>
     <section id="landing">
       <div class="row landrow headertext header1 flexcenter">
         <div id="landitem1" class="landitembig">
-          <img src="/img/Jakub Olajoš.png " alt="" />
+          <img src="img/Jakub Olajoš.png " alt="" />
           <div id="landitem2" class="landitems landitemsmall float">+</div>
         </div>
 
         <div id="landitem3" class="landitembig">
-          <img src="/img/onlimaimg.svg" />
+          <img src="img/onlimaimg.svg" />
           <div id="landitem4" class="landitems landitemsmall float">=</div>
         </div>
 
@@ -46,12 +48,12 @@
     <section id="home">
       <div class="row homerow">
         <div id="homeitemaling" class="homeitems">
-          <h1 id="homeitem1" class="header1 merriweather">Dobrý deň</h1>
-          <p id="homeitem2" class="textnormal forum">
+          <h1 id="homeitem1" class="header1 merriweather slide-in">Dobrý deň</h1>
+          <p id="homeitem2" class="textnormal forum slide-in">
             rád by som sa uchádzal o pozíciu front-end developera vo vašej
             spoločnosti Onlima. Ako začiatočník v oblasti vývoja webových
             stránok mám skúsenosti s tvorbou stránok cez WordPress pre neziskovú
-            organizáciu a reštauráciu. Tento proces ma veľmi baví a neustále sa
+            organizáciu a iné podniky. Tento proces ma veľmi baví a neustále sa
             vzdelávam prostredníctvom online aj prezenčných kurzov. Mojím veľkým
             snom je pracovať na tvorbe webových stránok a verím, že svoje
             nadšenie a získané zručnosti môžem využiť a pomôcť vášmu tímu
@@ -63,7 +65,7 @@
         </div>
         <div class="homeitems">
           <div id="homeitem3">
-            <img src="/img/P1171161-removebg-preview.png" alt="" />
+            <img src="img/P1171161-removebg-preview.png" alt="" />
           </div>
         </div>
       </div>
@@ -79,7 +81,7 @@
       <div class="row">
         <div class="tabcontainer flexcenter merriweather">
           <div id="tabitem1" class="tabitems ">
-            <h3 class="tabitemshead ">Kontakt</h3>
+            <h3 class="tabitemshead"><a href="#contact">Zavolajte mi</a></h3>
             
           </div>
           
@@ -95,6 +97,7 @@
       <div class="row">
         <div class="workcontainer">
           <div class="workleft">
+            <h2 class="workheader climate-crisis">Zručnosti</h2>
             <div class="workleft-head">HTML</div>
             <div class="workleft-text">Mierne pokročilý</div>
 
@@ -112,6 +115,7 @@
 
           </div>
           <div class="workright">
+            <h2 class="workheader climate-crisis">Vzdelanie/kurzy</h2>
             <div class="workright-head">Webrebel 1: HTML, CSS & JavaScript
             </div>
             <div class="workright-text">2023 - 2024
@@ -139,13 +143,13 @@
     <section id="contact">
       <div class="row">
         <div class="contactcontainer">
-          <div class="contactitems">
-            <div>Tel. číslo:</div>
-            <div><a href="">+421949021875</a></div>
+          <div class="contactitems flexcenter">
+            <div class="contacthead">Tel. číslo:</div>
+            <div><a href="tel:+421949021875" class="contacttext">+421949021875</a></div>
           </div>
-          <div class="contactitems">
-            <div>Email:</div>
-            <div>jakubolajos95@gmail.com</div>
+          <div class="contactitems flexcenter">
+            <div class="contacthead merriweather">Email:</div>
+            <div> <a href="mailto:jakubolajos95@gmail.com" class="contacttext">jakubolajos95@gmail.com</a></div>
           </div>
         </div>
       </div>
